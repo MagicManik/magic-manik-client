@@ -48,8 +48,7 @@ const Footer = () => {
                 </div>
 
             </div>
-
-            <div className='text-center py-4'>Copyright &copy; 2022 magicmanik.com</div>
+            <div className='footer-bottom'>Copyright &copy; 2022 magicmanik.com</div>
 
         </footer>
     );

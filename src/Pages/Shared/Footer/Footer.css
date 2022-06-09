@@ -2,8 +2,8 @@
     display: grid;
     grid-template-columns: 1fr 1.5fr 1fr;
     justify-content: space-between;
-    padding: 70px 100px 10px 100px;
-
+    padding: 100px 100px 10px 100px;
+    background-color: #0f0f0f;
 }
 
 .footer-container {
@@ -20,7 +20,7 @@
 
 .footer-text a {
     text-decoration: none;
-    color: black;
+    color: rgb(224, 224, 224);
 }
 
 .footer-text a:hover {
@@ -51,6 +51,13 @@
 
 .social-icon:hover {
     color: #29613d;
+}
+
+.footer-bottom {
+    background-color: #0f0f0f;
+    color: rgb(224, 224, 224);
+    text-align: center;
+    padding: 18px;
 }
 
 

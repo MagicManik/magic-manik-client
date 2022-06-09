@@ -9,7 +9,7 @@ const Banner = () => {
                 <img src={manikIslamMahi} alt="Manik Islam Mahi" />
             </div>
             <div>
-                <h3 className='text-white'>
+                <h3 className='text-white banner-text'>
                     Hello, My name is hisham i love design and i hope to make awesome designs and also i create a Mobile AppsLanding PagesAwesome Design <span className='gradient-text-one'>Magic Manik</span>
                 </h3>
             </div>

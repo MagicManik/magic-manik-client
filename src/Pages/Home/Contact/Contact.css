@@ -1,18 +1,25 @@
 .contact-section {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    justify-content: center;
-    padding: 80px 100px;
-    background-color: #111111;
+    justify-content: space-between;
+    padding: 80px 140px;
+    background-color: #171717;
 }
 
+.location-container {
+    color: #a5a5a5;
+}
+
+.contact-form {
+    margin-left: auto;
+}
 
 .contact-form input:nth-child(-n + 2) {
     margin: 10px;
     width: 315px;
-    border-radius: px;
     padding: 10px 20px;
-    background-color: #111111;
+    background-color: #171717;
+
 }
 
 .contact-form input:nth-last-child(-n + 2),
@@ -27,10 +34,35 @@
     border: 1px solid rgba(92, 225, 21, 0.5);
     padding: 10px 20px;
     border-radius: 25px;
-    background-color: #111111;
+    background-color: #171717;
+
 }
 
 .contact-form input:focus,
 .contact-form textarea:focus {
     outline: 1px solid rgba(92, 225, 21, 0.5);
+    border-radius: 25px;
+}
+
+@media screen and (max-width: 576px) {
+    .contact-section {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: space-between;
+        padding: 80px 10px;
+    }
+
+    .contact-form input:nth-child(-n + 2) {
+        display: block;
+        margin: 10px;
+        width: 95%;
+        padding: 10px 20px;
+    }
+
+    .contact-form input:nth-last-child(-n + 2),
+    .contact-form textarea {
+        display: block;
+        width: 95%;
+        margin: 10px;
+    }
 }
