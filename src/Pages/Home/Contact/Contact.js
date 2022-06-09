@@ -1,7 +1,32 @@
-import React from 'react';
-import './Contact.css'
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
+import './Contact.css';
 
 const Contact = () => {
+
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs
+            .sendForm(
+                "service_8hsnqq8",
+                "template_8rpi7po",
+                form.current,
+                "D7kzrSlFH-9FNP42C"
+            )
+            .then(
+                (result) => {
+                    console.log(result.text);
+                    console.log("message sent");
+                },
+                (error) => {
+                    console.log(error.text);
+                }
+            );
+    };
+
     return (
         <section className='contact-section'>
             <div>
@@ -13,11 +38,11 @@ const Contact = () => {
                 <p>contact@magicmanik.com</p>
             </div>
             <div>
-                <form className='contact-form'>
-                    <input type="text" name="" id="" placeholder='Enter your name' />
-                    <input type="email" name="" id="" placeholder='Enter your email address' />
-                    <input type="text" name="" id="" placeholder='Enter the discussion title' />
-                    <textarea name="" id="" cols="50" rows="5" placeholder='Write your message'></textarea>
+                <form ref={form} onSubmit={sendEmail} className='contact-form'>
+                    <input type="text" name="user_name" id="" placeholder='Enter your name' />
+                    <input type="email" name="user_email" placeholder='Enter your email address' />
+                    <textarea name="message" cols="50" rows="5" placeholder='Write your message' />
+                    <input className='text-primary' type="submit" value="Send" />
                 </form>
             </div>
 
