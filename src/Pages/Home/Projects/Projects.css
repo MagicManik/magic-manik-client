@@ -18,7 +18,13 @@
     border-width: 1px;
     border-color: rgba(92, 225, 21, 0.5);
     border-radius: 18px;
+}
+
+.project p {
     padding: 1px;
+    padding-top: 8px;
+    letter-spacing: 1px;
+    color: rgb(165, 165, 165);
 }
 
 .project img {

@@ -1,6 +1,4 @@
 import React from 'react';
-// import playStore from '../../../images/playstore.png';
-// import appStore from '../../../images/appstore.png';
 import { FaFacebook, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa';
 import './Footer.css';
 
@@ -10,15 +8,11 @@ const Footer = () => {
             <div className="footer-section">
                 <div className='footer-container'>
                     <h2 className='title-logo'>Magic Manik</h2>
-                    <p>Download Our Mobile App</p>
-                    <div className='d-flex'>
-                        {/* <a href="https://www.linkedin.com/in/manikislammahi/">
-                            <img className='app-logo' src={playStore} alt="" />
-                        </a> */}
-                        {/* <a href="https://www.linkedin.com/in/manikislammahi/">
-                            <img className='app-logo ps-2' src={appStore} alt="" />
-                        </a> */}
-                    </div>
+                    {/* <div className='d-flex'> */}
+                    <p className='footer-text'><a href="https://www.linkedin.com/in/manikislammahi/">About</a></p>
+                    <p className='footer-text'><a href="https://www.linkedin.com/in/manikislammahi/">Contact me</a></p>
+                    <p className='footer-text'><a href="https://www.linkedin.com/in/manikislammahi/">Manik Blogs</a></p>
+                    {/* </div> */}
                 </div>
 
                 <div className='company-others'>
@@ -39,10 +33,10 @@ const Footer = () => {
                 </div>
 
                 <div className='social-media'>
-                    <h5 className='footer-text pb-2'>Through social media we</h5>
-                    <p className='footer-text'>Contact: <span className='footer-span'>8244</span> (8AM - 11PM)</p>
-                    <p className='footer-text'>SMS: SHCHelp to 440404 (24X7)</p>
-                    <p className='footer-text'>Email: <span className='footer-span'>support@studyhackscorner.com</span></p>
+                    <h5 className='footer-text pb-2'>I am on social media</h5>
+                    <p className='footer-text'>Contact: <span className='footer-span'>+8801682440404</span> (24X7)</p>
+                    <p className='footer-text'>SMS: +8801682440404 (24X7)</p>
+                    <p className='footer-text'>Email: <span className='footer-span'>support@magicmanik.com</span></p>
 
                     <div className='social-icon-container'>
                         <a href="https://www.linkedin.com/in/manikislammahi/"><FaFacebook className='social-icon' /></a>

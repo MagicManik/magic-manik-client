@@ -15,38 +15,44 @@ const Projects = () => {
                 <div>
                     <div className='project'>
                         <a href="/"><img src={tools} alt="" /></a>
+                        <p className='px-1'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui sapiente totam omnis reprehenderit tenetur. Fugiat enim, doloremque</p>
                     </div>
-                    <p className='px-1'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui sapiente totam omnis reprehenderit tenetur. Fugiat enim, doloremque</p>
+
                 </div>
                 <div>
                     <div className='project'>
                         <a href="/"><img src={study} alt="" /></a>
+                        <p className='px-1'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui sapiente totam omnis reprehenderit tenetur. Fugiat enim, doloremque</p>
                     </div>
-                    <p className='px-1'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui sapiente totam omnis reprehenderit tenetur. Fugiat enim, doloremque</p>
+
                 </div>
                 <div>
                     <div className='project'>
                         <a href="/"><img src={study} alt="" /></a>
+                        <p className='px-1'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui sapiente totam omnis reprehenderit tenetur. Fugiat enim, doloremque</p>
                     </div>
-                    <p className='px-1'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui sapiente totam omnis reprehenderit tenetur. Fugiat enim, doloremque</p>
+
                 </div>
                 <div>
                     <div className='project'>
                         <a href="/"><img src={study} alt="" /></a>
+                        <p className='px-1'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui sapiente totam omnis reprehenderit tenetur. Fugiat enim, doloremque</p>
                     </div>
-                    <p className='px-1'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui sapiente totam omnis reprehenderit tenetur. Fugiat enim, doloremque</p>
+
                 </div>
                 <div>
                     <div className='project'>
                         <a href="/"><img src={study} alt="" /></a>
+                        <p className='px-1'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui sapiente totam omnis reprehenderit tenetur. Fugiat enim, doloremque</p>
                     </div>
-                    <p className='px-1'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui sapiente totam omnis reprehenderit tenetur. Fugiat enim, doloremque</p>
+
                 </div>
                 <div>
                     <div className='project'>
                         <a href="/"><img src={study} alt="" /></a>
+                        <p className='px-1'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui sapiente totam omnis reprehenderit tenetur. Fugiat enim, doloremque</p>
                     </div>
-                    <p className='px-1'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui sapiente totam omnis reprehenderit tenetur. Fugiat enim, doloremque</p>
+
                 </div>
             </div>
         </section>
