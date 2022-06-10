@@ -3,9 +3,10 @@
     grid-template-columns: 1fr 2fr;
     align-items: center;
     grid-gap: 40px 40px;
-    padding: 100px 80px 0 80px;
+    padding: 110px 80px 0 80px;
     background-color: #0f0f0f;
     position: relative;
+    font-family: 'Poppins', sans-serif;
 }
 
 .banner-section img {
@@ -21,6 +22,10 @@
     left: 0;
     bottom: 5px;
     background: linear-gradient(to right, #12c2e9, #c471ed, #f64f59);
+}
+
+.text-color-two {
+    color: rgba(255, 255, 255, 0.938);
 }
 
 .gradient-text-one {

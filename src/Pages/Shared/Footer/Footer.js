@@ -8,11 +8,9 @@ const Footer = () => {
             <div className="footer-section">
                 <div className='footer-container'>
                     <h2 className='title-logo'>Magic Manik</h2>
-                    {/* <div className='d-flex'> */}
                     <p className='footer-text'><a href="https://www.linkedin.com/in/manikislammahi/">About</a></p>
                     <p className='footer-text'><a href="https://www.linkedin.com/in/manikislammahi/">Contact me</a></p>
                     <p className='footer-text'><a href="https://www.linkedin.com/in/manikislammahi/">Manik Blogs</a></p>
-                    {/* </div> */}
                 </div>
 
                 <div className='company-others'>

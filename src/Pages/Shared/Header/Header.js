@@ -20,7 +20,7 @@ const Header = () => {
                         <Nav.Link className='text-white fs-7' href={resume} download='manik-islam-mahi-junior-web-developer'>
                             Download Resume
                         </Nav.Link>
-                        <Nav.Link className='text-white fs-7'>
+                        <Nav.Link href="#contact-me" className='text-white fs-7' >
                             Contact Me
                         </Nav.Link>
                         <Nav.Link className='text-white fs-7'>

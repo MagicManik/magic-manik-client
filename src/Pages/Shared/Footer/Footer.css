@@ -2,8 +2,9 @@
     display: grid;
     grid-template-columns: 1fr 1.5fr 1fr;
     justify-content: space-between;
-    padding: 100px 100px 10px 100px;
+    padding: 150px 100px 20px 100px;
     background-color: #0f0f0f;
+    font-family: 'Poppins', sans-serif;
 }
 
 .footer-container {
@@ -15,11 +16,12 @@
 }
 
 .footer-text {
-    margin: 2px;
+    margin: 3px;
 }
 
 .footer-text a {
     text-decoration: none;
+    font-size: 14px;
     color: rgb(224, 224, 224);
 }
 
@@ -45,7 +47,7 @@
 }
 
 .social-icon {
-    color: #2d2c39;
+    color: #616161;
     font-size: 36px;
 }
 

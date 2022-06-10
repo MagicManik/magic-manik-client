@@ -28,10 +28,10 @@ const Contact = () => {
     };
 
     return (
-        <section className='contact-section'>
+        <section id='contact-me' className='contact-section'>
             <div className='location-container'>
                 <h4>Reach Me</h4>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo dolorum a neque.</p>
+                <p>Web Developer | Graphic Designer | SEO Guidance</p>
                 <p>Dhaka, Bangladesh</p>
                 <p>Kafrul 1206</p>
                 <p>+8801682440404</p>

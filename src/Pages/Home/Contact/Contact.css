@@ -2,8 +2,9 @@
     display: grid;
     grid-template-columns: 1fr 2fr;
     justify-content: space-between;
-    padding: 80px 140px;
+    padding: 150px 140px;
     background-color: #171717;
+    font-family: 'Poppins', sans-serif;
 }
 
 .location-container {
@@ -64,5 +65,9 @@
         display: block;
         width: 95%;
         margin: 10px;
+    }
+
+    .location-container {
+        padding: 20px;
     }
 }
