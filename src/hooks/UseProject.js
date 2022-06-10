@@ -5,7 +5,7 @@ const UseProject = id => {
     const [project, setProject] = useState({});
 
     useEffect(() => {
-        fetch(`http://localhost:5000/project/${id}`)
+        fetch(`https://aqueous-spire-35351.herokuapp.com/project/${id}`)
             .then(res => res.json())
             .then(data => setProject(data))
     }, [id, project]);
